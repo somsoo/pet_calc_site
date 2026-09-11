@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pet-calc.enjoy-onepage.com/sitemap.xml
