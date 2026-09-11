@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>반려동물 나이 계산기 | 강아지·고양이 사람나이 환산 및 권장 사료량</title>
+    <link>https://pet-calc.enjoy-onepage.com/</link>
+    <description>강아지·고양이 체중과 나이를 입력하면 수의학 RER 공식 기반 사람 나이 환산과 일일 적정 사료 급여량을 계산합니다.</description>
+    <language>ko-KR</language>
+    <lastBuildDate>Sat, 12 Sep 2026 03:00:00 +0900</lastBuildDate>
+    <atom:link href="https://pet-calc.enjoy-onepage.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>반려동물 나이 계산기 | 강아지·고양이 사람나이 환산 및 권장 사료량</title>
+      <link>https://pet-calc.enjoy-onepage.com/</link>
+      <guid isPermaLink="true">https://pet-calc.enjoy-onepage.com/</guid>
+      <description>강아지·고양이 체중과 나이를 입력하면 수의학 RER 공식 기반 사람 나이 환산과 일일 적정 사료 급여량을 계산합니다.</description>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>서비스 소개 및 수의학 공식 | 반려동물 나이·사료량 계산기</title>
+      <link>https://pet-calc.enjoy-onepage.com/about.html</link>
+      <guid isPermaLink="true">https://pet-calc.enjoy-onepage.com/about.html</guid>
+      <description>반려동물 나이 계산기 | 강아지·고양이 사람나이 환산 및 권장 사료량의 서비스 소개, 공식 법령 산출 수식 및 데이터 처리 원칙 안내입니다.</description>
+      <pubDate>Sat, 12 Sep 2026 01:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>개인정보처리방침 | 반려동물 나이·사료량 계산기</title>
+      <link>https://pet-calc.enjoy-onepage.com/privacy.html</link>
+      <guid isPermaLink="true">https://pet-calc.enjoy-onepage.com/privacy.html</guid>
+      <description>반려동물 나이 계산기 | 강아지·고양이 사람나이 환산 및 권장 사료량의 개인정보 보호 정책, 쿠키 사용 및 브라우저 로컬 데이터 보안 원칙입니다.</description>
+      <pubDate>Sat, 12 Sep 2026 01:10:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>고양이 사람 나이 환산표 생애주기 가이드</title>
+      <link>https://pet-calc.enjoy-onepage.com/guides/cat-age-and-stage.html</link>
+      <guid isPermaLink="true">https://pet-calc.enjoy-onepage.com/guides/cat-age-and-stage.html</guid>
+      <description>반려묘 1년=사람 15세! 6단계 고양이 생애주기별 신체 변화와 질병 예방 체크포인트.</description>
+      <pubDate>Sat, 12 Sep 2026 02:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>강아지 사람 나이 소형견 대형견 환산표 공식</title>
+      <link>https://pet-calc.enjoy-onepage.com/guides/dog-age-conversion.html</link>
+      <guid isPermaLink="true">https://pet-calc.enjoy-onepage.com/guides/dog-age-conversion.html</guid>
+      <description>1년=7세는 옛말! 소형견·중형견·대형견 체급별 노화 속도 차이와 최신 미국수의사회 환산표.</description>
+      <pubDate>Sat, 12 Sep 2026 02:15:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>강아지나이 완벽 해결 실무 가이드 및 핵심 요령 | 반려동물 나이·사료 칼로리 계산기</title>
+      <link>https://pet-calc.enjoy-onepage.com/guides/guide1.html</link>
+      <guid isPermaLink="true">https://pet-calc.enjoy-onepage.com/guides/guide1.html</guid>
+      <description>강아지나이에 관한 법령 및 공식 산정 기준은 공공기관 훈령과 최신 개정 규정에 따르며, 개별 상황에 따라 적용 요율과 한도가 달라질 수...</description>
+      <pubDate>Sat, 12 Sep 2026 02:30:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>강아지나이 기준 주의사항 및 2026년 최신 개정 기준 | 반려동물 나이·사료 칼로리 계산기</title>
+      <link>https://pet-calc.enjoy-onepage.com/guides/guide2.html</link>
+      <guid isPermaLink="true">https://pet-calc.enjoy-onepage.com/guides/guide2.html</guid>
+      <description>강아지나이 기준 관련 분쟁 예방을 위해서는 서면 합의서 및 공식 명세서를 보관하고, 모의 계산기를 통해 예상 결과를 교차 검증하는 절차...</description>
+      <pubDate>Sat, 12 Sep 2026 02:45:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>노령견 건강검진 주기 강아지 수명 신호 증상</title>
+      <link>https://pet-calc.enjoy-onepage.com/guides/rer-der-feeding-guide.html</link>
+      <guid isPermaLink="true">https://pet-calc.enjoy-onepage.com/guides/rer-der-feeding-guide.html</guid>
+      <description>7세 이상 시니어 펫 필수 검진! 백내장, 심장병, 인지기능장애증후군(치매) 조기 발견 팁.</description>
+      <pubDate>Sat, 12 Sep 2026 03:00:00 +0900</pubDate>
+    </item>
+  </channel>
+</rss>
