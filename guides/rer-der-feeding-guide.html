@@ -3,15 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RER·DER 칼로리 공식과 사료 급여법 | 반려동물 건강 가이드</title>
-  <meta name="description" content="수의학 RER 휴지기 대사량 공식과 활동 계수를 곱한 DER 일일 사료 무게(g) 계산법을 설명합니다.">
+  <title>RER·DER 칼로리 공식과 일일 정량 사료 급여법 | 반려동물 건강 가이드</title>
+  <meta name="description" content="눈대중 급여로 인한 비만을 방지하는 수의학 RER(휴지기 대사량) 공식과 활동 계수별 DER 산출법, 사료 무게(g) 계량 실무를 정리합니다.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://pet-calc.enjoy-onepage.com/guides/rer-der-feeding-guide.html">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6421332766487920" crossorigin="anonymous"></script>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-rose-50/40 text-slate-800 antialiased font-sans min-h-screen flex flex-col justify-between">
-  <header class="bg-white border-b border-rose-100">
+  <header class="bg-white border-b border-rose-100 sticky top-0 z-50">
     <div class="max-w-3xl mx-auto px-4 py-3 flex items-center justify-between">
       <a href="/" class="flex items-center gap-2 text-slate-900 font-bold hover:text-rose-600 transition">
         <span class="w-7 h-7 rounded-lg bg-rose-500 text-white flex items-center justify-center font-bold text-xs">펫</span>
@@ -22,32 +24,73 @@
   </header>
 
   <main class="max-w-3xl mx-auto px-4 py-8 w-full flex-grow">
-    <article class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm space-y-6">
-      <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-teal-100 text-teal-800">수의 영양학 가이드</span>
-      <h1 class="text-2xl font-extrabold text-slate-900">RER·DER 칼로리 산정 공식과 사료 정량 급여법</h1>
+    <article class="bg-white rounded-2xl p-6 sm:p-10 shadow-sm border border-slate-200 space-y-8 text-sm text-slate-700 leading-relaxed">
+      
+      <div class="border-b border-rose-100 pb-5">
+        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold bg-teal-100 text-teal-800 mb-3">수의 영양학 실무</span>
+        <h1 class="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">종이컵 눈대중은 이제 그만: 과학적 사료 계량법</h1>
+        <div class="flex items-center gap-3 text-xs text-slate-400 mt-2">
+          <span>WSAVA 영양평가 지침</span>
+          <span>·</span>
+          <span>비만 예방 칼로리 계산</span>
+          <span>·</span>
+          <span>읽는 시간 약 4분</span>
+        </div>
+      </div>
 
-      <section class="space-y-3 text-sm text-slate-600 leading-relaxed">
-        <h2 class="text-lg font-bold text-slate-900 border-b border-slate-100 pb-2">1. 왜 대사량 공식이 필요한가요?</h2>
+      <p class="text-base text-slate-800 font-medium">
+        동물병원에 내원하는 반려동물의 약 40~50%가 과체중 또는 비만입니다. 비만은 단순 외모 문제가 아니라 슬개골 탈구, 디스크, 당뇨, 심장병의 직행열차입니다. 내 아이에게 딱 맞는 하루 사료 무게(g)를 수의학 공식으로 도출하는 법을 공개합니다.
+      </p>
+
+      <section class="space-y-3">
+        <h2 class="text-lg font-bold text-slate-900 flex items-center gap-2">
+          <span class="w-2 h-4 bg-rose-500 rounded-full"></span>
+          1. 1단계: 휴지기 대사량(RER) 구하기
+        </h2>
         <p>
-          단순히 눈대중이나 사료 포장지 표기만 믿고 급여하면 비만이나 영양 불균형이 초래됩니다. 비만은 당뇨, 관절염, 호흡기 질환의 주범이므로 체중과 생애 주기에 맞춘 정확한 칼로리 계산이 필수적입니다.
+          RER(Resting Energy Requirement)은 동물이 가만히 숨만 쉬고 체온을 유지하는 데 필요한 최소 에너지입니다:
         </p>
-      </section>
-
-      <section class="space-y-3 text-sm text-slate-600 leading-relaxed">
-        <h2 class="text-lg font-bold text-slate-900 border-b border-slate-100 pb-2">2. 공식 분해 및 실전 예시</h2>
-        <div class="p-4 bg-slate-50 rounded-xl border border-slate-200 space-y-2 text-xs">
-          <p><strong>반려견:</strong> 5.5kg 말티즈 (중성화 완료)</p>
-          <p><strong>1단계 RER:</strong> 70 × (5.5)^0.75 = 251.2 kcal</p>
-          <p><strong>2단계 DER:</strong> 251.2 × 1.6(활동계수) = <strong>402 kcal/일</strong></p>
-          <p><strong>3단계 사료량 (3,600 kcal/kg 사료):</strong> 402 ÷ 3.6 = <strong>약 112 g/일</strong></p>
-          <p class="text-rose-600 font-bold"><strong>아침·저녁 2회 급여 시:</strong> 1회당 약 56g 급여</p>
+        <div class="p-4 bg-slate-50 rounded-xl border border-slate-200 text-xs">
+          <strong>📐 RER 계산 공식:</strong> <code>70 × (체중 kg)^0.75</code>
+          <p class="text-slate-500 mt-1">* 5kg 반려견: 70 × (5)^0.75 = 약 234 kcal</p>
         </div>
       </section>
 
-      <div class="pt-4 border-t border-slate-100 text-center">
-        <a href="/" class="inline-flex items-center gap-2 px-5 py-2.5 bg-rose-500 text-white rounded-xl text-sm font-bold hover:bg-rose-600 transition">
-          우리 아이 맞춤 사료량 계산하기 →
-        </a>
+      <section class="space-y-3">
+        <h2 class="text-lg font-bold text-slate-900 flex items-center gap-2">
+          <span class="w-2 h-4 bg-rose-500 rounded-full"></span>
+          2. 2단계: 일일 에너지 요구량(DER)과 활동 계수
+        </h2>
+        <p>RER에 아이의 생애 단계에 따른 계수를 곱해 하루 총 필요 칼로리(DER)를 구합니다:</p>
+        <ul class="list-disc pl-5 space-y-1 text-xs text-slate-600">
+          <li><strong>중성화 완료 성견:</strong> RER × 1.6</li>
+          <li><strong>중성화 안 한 성견:</strong> RER × 1.8</li>
+          <li><strong>체중 감량이 필요한 비만견:</strong> RER × 1.0 ~ 1.2 (칼로리 제한)</li>
+          <li><strong>시니어 노령견/노령묘:</strong> RER × 1.1 ~ 1.4</li>
+          <li><strong>성장기 퍼피 (4개월 미만):</strong> RER × 2.5 ~ 3.0</li>
+        </ul>
+      </section>
+
+      <section class="space-y-3">
+        <h2 class="text-lg font-bold text-slate-900 flex items-center gap-2">
+          <span class="w-2 h-4 bg-rose-500 rounded-full"></span>
+          3. 3단계: 사료 무게(g)로 환산하기
+        </h2>
+        <div class="p-4 bg-teal-50/60 rounded-xl border border-teal-200 text-xs space-y-1">
+          <p>시판 사료 포장지 뒤편의 대사 에너지(보통 3,500~3,800 kcal/kg)를 확인한 뒤 나눕니다:</p>
+          <p class="font-bold text-teal-900">하루 사료 무게 (g) = [ DER ÷ (사료 kcal/kg ÷ 1,000) ]</p>
+          <p class="text-slate-500 mt-1">예: DER이 400 kcal이고 사료가 3,600 kcal/kg이라면: 400 ÷ 3.6 = <strong>약 111g</strong></p>
+        </div>
+      </section>
+
+      <div class="bg-slate-100 rounded-xl p-2 border border-slate-200 text-center my-6 overflow-hidden">
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6421332766487920" data-ad-slot="3416334507" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
+
+      <div class="pt-4 border-t border-slate-100 flex justify-between text-xs">
+        <a href="/guides/cat-age-and-stage.html" class="text-slate-500 hover:text-rose-600">← 이전: 고양이 생애 주기</a>
+        <a href="/" class="text-rose-600 font-bold hover:underline">계산기 홈으로 가기 →</a>
       </div>
     </article>
   </main>
