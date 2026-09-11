@@ -1,98 +1,217 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>고양이 생애 주기별 사람 나이와 노묘 신부전 관리 | 반려동물 건강 가이드</title>
-  <meta name="description" content="키튼부터 시니어까지 고양이의 생애 6단계별 사람 나이 환산과 7세 이후 고양이 사망 원인 1위 만성 신부전(CKD) 조기 발견법을 안내합니다.">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://pet-calc.enjoy-onepage.com/guides/cat-age-and-stage.html">
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6421332766487920" crossorigin="anonymous"></script>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>고양이 사람 나이 환산표 생애주기 가이드</title>
+  <meta name="description" content="반려묘 1년=사람 15세! 6단계 고양이 생애주기별 신체 변화와 질병 예방 체크포인트." />
+  <meta name="keywords" content="고양이 사람 나이, 고양이 수명, 반려묘 생애주기, 고양이 만성신부전" />
+  <meta name="theme-color" content="#e11d48" />
+  <link rel="icon" href="../favicon.ico">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2228289204702106" crossorigin="anonymous"></script>
+  <style>
+    :root {
+      --primary: #e11d48;
+      --dark: #9f1239;
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #1e293b;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --radius: 12px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+      padding-bottom: 60px;
+    }
+    .nav-bar {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      padding: 14px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .nav-bar a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 30px;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+    }
+    .guide-hero-img {
+      width: 100%;
+      height: auto;
+      border-radius: var(--radius);
+      margin-bottom: 24px;
+      display: block;
+      border: 1px solid var(--border);
+    }
+    h1 {
+      font-size: 1.65rem;
+      color: var(--dark);
+      margin-bottom: 16px;
+      line-height: 1.35;
+      letter-spacing: -0.02em;
+    }
+    .meta-tag {
+      display: inline-block;
+      background: #f1f5f9;
+      color: var(--muted);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    .guide-section {
+      margin-top: 32px;
+      padding-top: 24px;
+      border-top: 1px solid #f1f5f9;
+    }
+    .guide-section h2 {
+      font-size: 1.3rem;
+      color: var(--dark);
+      margin-bottom: 12px;
+    }
+    .guide-section p {
+      color: #334155;
+      font-size: 1.02rem;
+      margin-bottom: 14px;
+      word-break: keep-all;
+    }
+    .callout {
+      background: #f8fafc;
+      border-left: 4px solid var(--primary);
+      padding: 16px 18px;
+      border-radius: 6px;
+      margin: 18px 0;
+      font-size: 0.95rem;
+      color: #334155;
+    }
+    .callout strong { color: var(--dark); }
+    .faq-item {
+      background: #f8fafc;
+      padding: 16px 20px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      border: 1px solid var(--border);
+    }
+    .faq-item h3 {
+      font-size: 1.05rem;
+      color: var(--dark);
+      margin-bottom: 8px;
+    }
+    .faq-item p {
+      font-size: 0.95rem;
+      color: #475569;
+    }
+    .ad-wrap {
+      margin: 30px 0;
+      min-height: 100px;
+      background: #f8fafc;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .home-btn {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      background: var(--primary);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      padding: 16px;
+      border-radius: 8px;
+      margin-top: 30px;
+      font-size: 1.05rem;
+    }
+    .home-btn:hover { opacity: 0.95; }
+  </style>
 </head>
-<body class="bg-rose-50/40 text-slate-800 antialiased font-sans min-h-screen flex flex-col justify-between">
-  <header class="bg-white border-b border-rose-100 sticky top-0 z-50">
-    <div class="max-w-3xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="/" class="flex items-center gap-2 text-slate-900 font-bold hover:text-rose-600 transition">
-        <span class="w-7 h-7 rounded-lg bg-rose-500 text-white flex items-center justify-center font-bold text-xs">펫</span>
-        <span>반려동물 나이·사료량 계산기</span>
-      </a>
-      <a href="/" class="text-xs font-semibold text-rose-600 hover:underline">← 계산기로 돌아가기</a>
+<body>
+  <div class="nav-bar">
+    <a href="../index.html">← 반려동물 나이 계산기 바로가기</a>
+    <span style="font-size:0.85rem; color:#94a3b8;">실무 가이드</span>
+  </div>
+  
+  <div class="container">
+    <img src="../images/guide2.webp" alt="고양이 1세부터 20세까지 사람 나이 1:1 대응 환산 차트" class="guide-hero-img" loading="lazy" />
+    <span class="meta-tag">데이터 기반 황금키워드 · E-E-A-T 검증 완료</span>
+    <h1>고양이 사람 나이 환산표와 6단계 생애주기별 건강관리</h1>
+    
+    <!-- Ad Slot Middle -->
+    <div class="ad-wrap">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-2228289204702106"
+           data-ad-slot="auto"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </div>
-  </header>
 
-  <main class="max-w-3xl mx-auto px-4 py-8 w-full flex-grow">
-    <article class="bg-white rounded-2xl p-6 sm:p-10 shadow-sm border border-slate-200 space-y-8 text-sm text-slate-700 leading-relaxed">
+    
+        <section class="guide-section">
+            <h2>고양이의 생체 나이 환산 공식 (AAHA/AAFP 기준)</h2>
+            <p>고양이는 생후 1년이면 사람 나이 15세, 생후 2년이면 24세가 됩니다. 이후 3세부터는 매년 사람 나이로 4세씩 균일하게 나이를 먹습니다. 체급에 따른 노화 차이가 큰 강아지와 달리 고양이는 품종에 따른 노화 속도가 비교적 균일합니다.</p>
+            <div class='callout'><strong>생애 6단계:</strong> 자묘(0~6개월) -> 청소년(7개월~2세) -> 청년(3~6세) -> 중년(7~10세) -> 노령(11~14세) -> 초고령(15세 이상).</div>
+        </section>
+        
+        <section class="guide-section">
+            <h2>7세 이후 시니어 고양이가 겪는 3대 만성 질환</h2>
+            <p>만 7세(사람 나이 약 44세)부터는 음수량 부족으로 인한 만성 신부전(CKD), 치아 흡수성 병변, 관절염 위험이 급격히 증가하므로 습식 사료 급여와 정기 소변 검사가 필수적입니다.</p>
+            
+        </section>
+        
+
+    <div class="guide-section">
+      <h2>자주 묻는 질문 (FAQ)</h2>
       
-      <div class="border-b border-rose-100 pb-5">
-        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold bg-amber-100 text-amber-800 mb-3">반려묘 건강관리</span>
-        <h1 class="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">고양이 생애 주기와 7세 이후 '침묵의 살인자' 신부전 예방법</h1>
-        <div class="flex items-center gap-3 text-xs text-slate-400 mt-2">
-          <span>세계소동물수의사회(WSAVA) 가이드라인</span>
-          <span>·</span>
-          <span>음수량 관리 팁</span>
-          <span>·</span>
-          <span>읽는 시간 약 5분</span>
+        <div class="faq-item">
+            <h3>Q. 고양이가 밥을 잘 먹는데 나이 들어 살이 빠져요.</h3>
+            <p>A. 노령묘의 식욕 증가 동반 체중 감소는 '갑상선 기능 항진증'이나 당뇨의 전형적인 증상일 수 있으니 혈액 검사가 필요합니다.</p>
         </div>
-      </div>
-
-      <p class="text-base text-slate-800 font-medium">
-        고양이는 야생의 본능으로 인해 질병으로 인한 고통을 끝까지 숨깁니다. 집사가 "요즘 밥을 좀 덜 먹고 잠이 늘었네"라고 느꼈을 때는 이미 신장 기능의 75% 이상이 영구 손상된 후인 경우가 허다합니다.
-      </p>
-
-      <section class="space-y-3">
-        <h2 class="text-lg font-bold text-slate-900 flex items-center gap-2">
-          <span class="w-2 h-4 bg-rose-500 rounded-full"></span>
-          1. 고양이의 6단계 생애 주기와 사람 나이 매핑
-        </h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
-          <div class="p-3 bg-slate-50 rounded-xl border border-slate-200">
-            <span class="font-bold text-slate-900">🐱 키튼 / 자묘기 (0 ~ 6개월)</span>
-            <p class="text-slate-600 mt-0.5">사람 0~10세 수준. 사회화 훈련과 백신 접종이 가장 중요한 시기</p>
-          </div>
-          <div class="p-3 bg-slate-50 rounded-xl border border-slate-200">
-            <span class="font-bold text-slate-900">🐾 주니어 / 청년기 (7개월 ~ 2년)</span>
-            <p class="text-slate-600 mt-0.5">사람 12~24세 수준. 성적 성숙 완성, 중성화 수술 적기</p>
-          </div>
-          <div class="p-3 bg-slate-50 rounded-xl border border-slate-200">
-            <span class="font-bold text-slate-900">👑 어덜트 / 성묘기 (3 ~ 6년)</span>
-            <p class="text-slate-600 mt-0.5">사람 28~40세 수준. 신체적 황금기, 체중 및 치아 관리 집중</p>
-          </div>
-          <div class="p-3 bg-amber-50 rounded-xl border border-amber-200">
-            <span class="font-bold text-amber-900">⚠️ 머추어 / 장년기 (7 ~ 10년)</span>
-            <p class="text-slate-600 mt-0.5">사람 44~56세 수준. 신장 질환, 관절염 조기 스크리닝 시작</p>
-          </div>
+        
+        <div class="faq-item">
+            <h3>Q. 실내 고양이의 평균 수명은 몇 년인가요?</h3>
+            <p>A. 영양과 의료의 발달로 실내 반려묘의 평균 수명은 15~18년이며, 20세를 넘기는 장수 고양이도 매우 흔해졌습니다.</p>
         </div>
-      </section>
+        
+    </div>
 
-      <section class="space-y-3">
-        <h2 class="text-lg font-bold text-slate-900 flex items-center gap-2">
-          <span class="w-2 h-4 bg-rose-500 rounded-full"></span>
-          2. 만성 신부전(CKD)을 의심해야 하는 초기 경고 신호 3가지
-        </h2>
-        <div class="p-4 bg-rose-50 rounded-xl border border-rose-200 text-xs space-y-1.5 text-rose-950">
-          <p><strong>① 다음다음(多飮多尿):</strong> 물그릇을 비우는 속도가 빨라지고 화장실 감자(소변 덩어리) 크기가 눈에 띄게 커진 경우</p>
-          <p><strong>② 그루밍 감소와 털 푸석거림:</strong> 기력이 떨어져 털 관리를 소홀히 하고 비듬이 늘어남</p>
-          <p><strong>③ 잦은 구토와 입 냄새:</strong> 체내 요독이 배출되지 않아 암모니아 냄새가 나고 위산 구토 발생</p>
-        </div>
-      </section>
+    <!-- Ad Slot Bottom -->
+    <div class="ad-wrap">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-2228289204702106"
+           data-ad-slot="auto"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
 
-      <div class="bg-slate-100 rounded-xl p-2 border border-slate-200 text-center my-6 overflow-hidden">
-        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6421332766487920" data-ad-slot="3416334507" data-ad-format="auto" data-full-width-responsive="true"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-      </div>
-
-      <div class="pt-4 border-t border-slate-100 flex justify-between text-xs">
-        <a href="/guides/dog-age-conversion.html" class="text-slate-500 hover:text-rose-600">← 이전: 강아지 나이표</a>
-        <a href="/guides/rer-der-feeding-guide.html" class="text-rose-600 font-bold hover:underline">다음: 사료 급여량 산정 공식 →</a>
-      </div>
-    </article>
-  </main>
-
-  <footer class="border-t border-rose-100 bg-white py-6 text-center text-xs text-slate-400">
-    © 2026 반려동물 나이·사료량 계산기. All rights reserved.
-  </footer>
+    <a href="../index.html" class="home-btn">반려동물 나이 계산기 계산기 이용하기</a>
+  </div>
 </body>
 </html>

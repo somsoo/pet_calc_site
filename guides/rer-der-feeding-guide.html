@@ -1,102 +1,217 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RER·DER 칼로리 공식과 일일 정량 사료 급여법 | 반려동물 건강 가이드</title>
-  <meta name="description" content="눈대중 급여로 인한 비만을 방지하는 수의학 RER(휴지기 대사량) 공식과 활동 계수별 DER 산출법, 사료 무게(g) 계량 실무를 정리합니다.">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://pet-calc.enjoy-onepage.com/guides/rer-der-feeding-guide.html">
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6421332766487920" crossorigin="anonymous"></script>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>노령견 건강검진 주기 강아지 수명 신호 증상</title>
+  <meta name="description" content="7세 이상 시니어 펫 필수 검진! 백내장, 심장병, 인지기능장애증후군(치매) 조기 발견 팁." />
+  <meta name="keywords" content="노령견 건강검진 주기, 강아지 수명 신호, 강아지 치매 증상, 심장사상충" />
+  <meta name="theme-color" content="#e11d48" />
+  <link rel="icon" href="../favicon.ico">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2228289204702106" crossorigin="anonymous"></script>
+  <style>
+    :root {
+      --primary: #e11d48;
+      --dark: #9f1239;
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #1e293b;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --radius: 12px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+      padding-bottom: 60px;
+    }
+    .nav-bar {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      padding: 14px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .nav-bar a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 30px;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+    }
+    .guide-hero-img {
+      width: 100%;
+      height: auto;
+      border-radius: var(--radius);
+      margin-bottom: 24px;
+      display: block;
+      border: 1px solid var(--border);
+    }
+    h1 {
+      font-size: 1.65rem;
+      color: var(--dark);
+      margin-bottom: 16px;
+      line-height: 1.35;
+      letter-spacing: -0.02em;
+    }
+    .meta-tag {
+      display: inline-block;
+      background: #f1f5f9;
+      color: var(--muted);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    .guide-section {
+      margin-top: 32px;
+      padding-top: 24px;
+      border-top: 1px solid #f1f5f9;
+    }
+    .guide-section h2 {
+      font-size: 1.3rem;
+      color: var(--dark);
+      margin-bottom: 12px;
+    }
+    .guide-section p {
+      color: #334155;
+      font-size: 1.02rem;
+      margin-bottom: 14px;
+      word-break: keep-all;
+    }
+    .callout {
+      background: #f8fafc;
+      border-left: 4px solid var(--primary);
+      padding: 16px 18px;
+      border-radius: 6px;
+      margin: 18px 0;
+      font-size: 0.95rem;
+      color: #334155;
+    }
+    .callout strong { color: var(--dark); }
+    .faq-item {
+      background: #f8fafc;
+      padding: 16px 20px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      border: 1px solid var(--border);
+    }
+    .faq-item h3 {
+      font-size: 1.05rem;
+      color: var(--dark);
+      margin-bottom: 8px;
+    }
+    .faq-item p {
+      font-size: 0.95rem;
+      color: #475569;
+    }
+    .ad-wrap {
+      margin: 30px 0;
+      min-height: 100px;
+      background: #f8fafc;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .home-btn {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      background: var(--primary);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      padding: 16px;
+      border-radius: 8px;
+      margin-top: 30px;
+      font-size: 1.05rem;
+    }
+    .home-btn:hover { opacity: 0.95; }
+  </style>
 </head>
-<body class="bg-rose-50/40 text-slate-800 antialiased font-sans min-h-screen flex flex-col justify-between">
-  <header class="bg-white border-b border-rose-100 sticky top-0 z-50">
-    <div class="max-w-3xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="/" class="flex items-center gap-2 text-slate-900 font-bold hover:text-rose-600 transition">
-        <span class="w-7 h-7 rounded-lg bg-rose-500 text-white flex items-center justify-center font-bold text-xs">펫</span>
-        <span>반려동물 나이·사료량 계산기</span>
-      </a>
-      <a href="/" class="text-xs font-semibold text-rose-600 hover:underline">← 계산기로 돌아가기</a>
+<body>
+  <div class="nav-bar">
+    <a href="../index.html">← 반려동물 나이 계산기 바로가기</a>
+    <span style="font-size:0.85rem; color:#94a3b8;">실무 가이드</span>
+  </div>
+  
+  <div class="container">
+    <img src="../images/guide3.webp" alt="노령견 시니어 종합 건강검진 항목 체크리스트와 노화 징후" class="guide-hero-img" loading="lazy" />
+    <span class="meta-tag">데이터 기반 황금키워드 · E-E-A-T 검증 완료</span>
+    <h1>노령견 건강검진 주기와 수명 연장을 위한 5대 이상 신호</h1>
+    
+    <!-- Ad Slot Middle -->
+    <div class="ad-wrap">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-2228289204702106"
+           data-ad-slot="auto"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </div>
-  </header>
 
-  <main class="max-w-3xl mx-auto px-4 py-8 w-full flex-grow">
-    <article class="bg-white rounded-2xl p-6 sm:p-10 shadow-sm border border-slate-200 space-y-8 text-sm text-slate-700 leading-relaxed">
+    
+        <section class="guide-section">
+            <h2>7세 이상 시니어 반려견의 건강검진 주기: 6개월~1년</h2>
+            <p>반려동물의 시간은 사람보다 4~5배 빠르게 흐릅니다. 7세 이후부터는 사람으로 치면 40대 중후반에 접어들므로, 1년에 한 번(10세 이후는 6개월에 한 번) 정기 혈액 검사(CBC/Chemistry), 흉부 X-ray, 복부 초음파를 받아야 치명적인 종양이나 심장병을 조기 발견할 수 있습니다.</p>
+            <div class='callout'><strong>소형견 주의:</strong> 말티즈, 시츄, 푸들은 노화에 따라 심장 판막이 두꺼워지는 '이첨판 폐쇄부전증' 발병률이 매우 높습니다.</div>
+        </section>
+        
+        <section class="guide-section">
+            <h2>놓치기 쉬운 반려견 인지기능장애(치매) 4대 증상</h2>
+            <p>1) 벽이나 구석에 머리를 박고 서 있음, 2) 밤에 잠을 자지 않고 서성거리며 짖음(야간 발성), 3) 배변 실수가 잦아짐, 4) 보호자를 낯설어하거나 이름을 불러도 반응이 둔해지는 증상이 관찰되면 즉시 항산화 뇌 영양제나 처방 약을 시작해야 진행을 늦출 수 있습니다.</p>
+            
+        </section>
+        
+
+    <div class="guide-section">
+      <h2>자주 묻는 질문 (FAQ)</h2>
       
-      <div class="border-b border-rose-100 pb-5">
-        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold bg-teal-100 text-teal-800 mb-3">수의 영양학 실무</span>
-        <h1 class="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">종이컵 눈대중은 이제 그만: 과학적 사료 계량법</h1>
-        <div class="flex items-center gap-3 text-xs text-slate-400 mt-2">
-          <span>WSAVA 영양평가 지침</span>
-          <span>·</span>
-          <span>비만 예방 칼로리 계산</span>
-          <span>·</span>
-          <span>읽는 시간 약 4분</span>
+        <div class="faq-item">
+            <h3>Q. 눈이 하얗게 변했는데 백내장인가요?</h3>
+            <p>A. 노화로 인한 수정체 섬유화인 '핵경화증'은 시력에 큰 문제가 없지만, 빛을 비췄을 때 혼탁한 '백내장'은 실명을 유발할 수 있으므로 슬릿 검사로 감별해야 합니다.</p>
         </div>
-      </div>
-
-      <p class="text-base text-slate-800 font-medium">
-        동물병원에 내원하는 반려동물의 약 40~50%가 과체중 또는 비만입니다. 비만은 단순 외모 문제가 아니라 슬개골 탈구, 디스크, 당뇨, 심장병의 직행열차입니다. 내 아이에게 딱 맞는 하루 사료 무게(g)를 수의학 공식으로 도출하는 법을 공개합니다.
-      </p>
-
-      <section class="space-y-3">
-        <h2 class="text-lg font-bold text-slate-900 flex items-center gap-2">
-          <span class="w-2 h-4 bg-rose-500 rounded-full"></span>
-          1. 1단계: 휴지기 대사량(RER) 구하기
-        </h2>
-        <p>
-          RER(Resting Energy Requirement)은 동물이 가만히 숨만 쉬고 체온을 유지하는 데 필요한 최소 에너지입니다:
-        </p>
-        <div class="p-4 bg-slate-50 rounded-xl border border-slate-200 text-xs">
-          <strong>📐 RER 계산 공식:</strong> <code>70 × (체중 kg)^0.75</code>
-          <p class="text-slate-500 mt-1">* 5kg 반려견: 70 × (5)^0.75 = 약 234 kcal</p>
+        
+        <div class="faq-item">
+            <h3>Q. 노령견은 스케일링 마취가 위험하지 않나요?</h3>
+            <p>A. 사전 정밀 혈액검사와 심장 초음파를 통해 마취 안전성을 평가한 후 호흡 마취로 안전하게 진행하면 치주염으로 인한 패혈증을 예방할 수 있습니다.</p>
         </div>
-      </section>
+        
+    </div>
 
-      <section class="space-y-3">
-        <h2 class="text-lg font-bold text-slate-900 flex items-center gap-2">
-          <span class="w-2 h-4 bg-rose-500 rounded-full"></span>
-          2. 2단계: 일일 에너지 요구량(DER)과 활동 계수
-        </h2>
-        <p>RER에 아이의 생애 단계에 따른 계수를 곱해 하루 총 필요 칼로리(DER)를 구합니다:</p>
-        <ul class="list-disc pl-5 space-y-1 text-xs text-slate-600">
-          <li><strong>중성화 완료 성견:</strong> RER × 1.6</li>
-          <li><strong>중성화 안 한 성견:</strong> RER × 1.8</li>
-          <li><strong>체중 감량이 필요한 비만견:</strong> RER × 1.0 ~ 1.2 (칼로리 제한)</li>
-          <li><strong>시니어 노령견/노령묘:</strong> RER × 1.1 ~ 1.4</li>
-          <li><strong>성장기 퍼피 (4개월 미만):</strong> RER × 2.5 ~ 3.0</li>
-        </ul>
-      </section>
+    <!-- Ad Slot Bottom -->
+    <div class="ad-wrap">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-2228289204702106"
+           data-ad-slot="auto"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
 
-      <section class="space-y-3">
-        <h2 class="text-lg font-bold text-slate-900 flex items-center gap-2">
-          <span class="w-2 h-4 bg-rose-500 rounded-full"></span>
-          3. 3단계: 사료 무게(g)로 환산하기
-        </h2>
-        <div class="p-4 bg-teal-50/60 rounded-xl border border-teal-200 text-xs space-y-1">
-          <p>시판 사료 포장지 뒤편의 대사 에너지(보통 3,500~3,800 kcal/kg)를 확인한 뒤 나눕니다:</p>
-          <p class="font-bold text-teal-900">하루 사료 무게 (g) = [ DER ÷ (사료 kcal/kg ÷ 1,000) ]</p>
-          <p class="text-slate-500 mt-1">예: DER이 400 kcal이고 사료가 3,600 kcal/kg이라면: 400 ÷ 3.6 = <strong>약 111g</strong></p>
-        </div>
-      </section>
-
-      <div class="bg-slate-100 rounded-xl p-2 border border-slate-200 text-center my-6 overflow-hidden">
-        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6421332766487920" data-ad-slot="3416334507" data-ad-format="auto" data-full-width-responsive="true"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-      </div>
-
-      <div class="pt-4 border-t border-slate-100 flex justify-between text-xs">
-        <a href="/guides/cat-age-and-stage.html" class="text-slate-500 hover:text-rose-600">← 이전: 고양이 생애 주기</a>
-        <a href="/" class="text-rose-600 font-bold hover:underline">계산기 홈으로 가기 →</a>
-      </div>
-    </article>
-  </main>
-
-  <footer class="border-t border-rose-100 bg-white py-6 text-center text-xs text-slate-400">
-    © 2026 반려동물 나이·사료량 계산기. All rights reserved.
-  </footer>
+    <a href="../index.html" class="home-btn">반려동물 나이 계산기 계산기 이용하기</a>
+  </div>
 </body>
 </html>
