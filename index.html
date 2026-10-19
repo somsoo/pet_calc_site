@@ -531,8 +531,8 @@
       const kcalPerKg = parseNum(document.getElementById('kibbleKcal').value) || 3600;
 
       // Update text
-      document.getElementById('petAgeText').innerText = age + '세';
-      document.getElementById('weightFormatted').innerText = weight.toFixed(1) + ' kg';
+      document.getElementById('petAgeText').textContent = age + '세';
+      document.getElementById('weightFormatted').textContent = weight.toFixed(1) + ' kg';
 
       // 1. Human Age Conversion
       let humanAge = 0;
@@ -589,20 +589,20 @@
       const perMealGrams = dailyGrams / 2;
 
       // Update UI
-      document.getElementById('resHumanAge').innerText = humanAge;
-      document.getElementById('lifeStageBadge').innerText = stageText;
-      document.getElementById('petHeaderName').innerText = (petType === 'dog' ? '강아지 ' : '고양이 ') + age + '세' + (petType === 'dog' ? ` (${breedSize === 'small' ? '소형견' : (breedSize === 'medium' ? '중형견' : '대형견')})` : '');
+      document.getElementById('resHumanAge').textContent = humanAge;
+      document.getElementById('lifeStageBadge').textContent = stageText;
+      document.getElementById('petHeaderName').textContent = (petType === 'dog' ? '강아지 ' : '고양이 ') + age + '세' + (petType === 'dog' ? ` (${breedSize === 'small' ? '소형견' : (breedSize === 'medium' ? '중형견' : '대형견')})` : '');
 
-      document.getElementById('resDailyGrams').innerText = Math.round(dailyGrams) + ' g';
-      document.getElementById('resDailyKcal').innerText = Math.round(der) + ' kcal';
-      document.getElementById('resPerMealGrams').innerText = Math.round(perMealGrams) + ' g';
+      document.getElementById('resDailyGrams').textContent = Math.round(dailyGrams) + ' g';
+      document.getElementById('resDailyKcal').textContent = Math.round(der) + ' kcal';
+      document.getElementById('resPerMealGrams').textContent = Math.round(perMealGrams) + ' g';
 
       // Table breakdown
-      document.getElementById('tableRer').innerText = Math.round(rer) + ' kcal';
-      document.getElementById('tableDer').innerText = Math.round(der) + ' kcal';
-      document.getElementById('tableFactorText').innerText = `RER × ${factor} (${document.getElementById('activityFactor').selectedOptions[0].text.split('(')[0].trim()})`;
-      document.getElementById('tableDailyG').innerText = Math.round(dailyGrams) + ' g';
-      document.getElementById('tableStage').innerText = stageText;
+      document.getElementById('tableRer').textContent = Math.round(rer) + ' kcal';
+      document.getElementById('tableDer').textContent = Math.round(der) + ' kcal';
+      document.getElementById('tableFactorText').textContent = `RER × ${factor} (${document.getElementById('activityFactor').selectedOptions[0].text.split('(')[0].trim()})`;
+      document.getElementById('tableDailyG').textContent = Math.round(dailyGrams) + ' g';
+      document.getElementById('tableStage').textContent = stageText;
 
       syncUrl();
     }
